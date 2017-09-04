@@ -15,8 +15,22 @@
     <div class="center text-big bold">
         Hi! I am your Jarvis, Welcome Ashish.
     </div>
- 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script type="text/javascript" src="/ui/main.js">
+    </script>
+    <script>
+        $(documnet).ready(function(){
+    console.log("logged");
+    $.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+        return this;
+    }
+});
+});
     </script>
 </body>
 
