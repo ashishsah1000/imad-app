@@ -1,3 +1,12 @@
 $(documnet).ready(function(){
-    alert("I am ready");
+    console.log("logged");
+    $.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+        return this;
+    }
+});
 });
