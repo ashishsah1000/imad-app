@@ -22,4 +22,16 @@ body {
 .img-medium {
     height: 200px;
 }
-
+/* extra CSS has been added from here: */
+.btn-great{
+    width:400px;
+    padding:40px 0px;
+    background:white;
+    border:2px solid white;
+    color:blue;
+}
+.btn-great:hover{
+    background:none;
+    border:2px solid blue;
+    color:white;
+}
