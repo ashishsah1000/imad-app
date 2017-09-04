@@ -29,7 +29,7 @@ body {
     background:rgba(222,150,70,1);
     border:2px solid rgba(222,150,70,1);
     color:rgba(22,150,70,1);
-     animation-duration: 4s;
+    transition: background 2s;
 }
 .btn-great:hover{
     background:rgba(22,150,70,1);
