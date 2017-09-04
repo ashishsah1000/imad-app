@@ -1,1 +1,3 @@
-console.log('Loaded!');
+$(documnet).ready(function(){
+    alert("I am ready");
+});
