@@ -41,3 +41,8 @@ body {
     border:2px solid rgba(222,150,70,1);
     color:white;
 }
+.container{
+    width:40%;
+    padding:30px 30px;
+    margin:0px auto;
+}
