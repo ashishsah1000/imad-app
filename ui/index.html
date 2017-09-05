@@ -8,9 +8,17 @@
 </head>
 
 <body>
-    <div class="center">
+    <div class="div_2">
+            <div class="center">
         <img src="http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_429/v1497924459/IMG_20170421_182856_qkhcge.jpg" class="img-medium"  id="img"/>
+         </div>
+         <div class="container">
+             <p>Hey friends I am Ashsih Sah, Just a simple developer. Trying to explore many diffrent aspects of 
+             Programming. Life is like a wind just go with it and I hope you can because the more you try the more you fail. But remmeber The more you fail there are more chances of your success. Its just a dummy text here so dont ever judge me by this.</p>
+         </div>
+          <h2 align="center"><button class="btn-great-1">Next</button></h2> 
     </div>
+
     <br>
     <div class="div_1">
         <!--<div class="center text-big bold">-->
@@ -33,8 +41,12 @@
         return this;
     }
   });
-  $("#img").hide();
+  $(".div_2").hide();
   $(".btn-great").animateCss("rubberBand");
+  $(".btn-great").click(function(){
+      $(".div_2").show();
+      $(".div_2").animateCss("bounceInRight");
+  })
 
 });
     </script>
