@@ -26,6 +26,11 @@
         <!--</div>-->
         <h2 align="center"><button class="btn-great" id="btn">Get Started</button></h2> 
     </div>
+    <div class="div_3">
+        <a>ashishsah1000@gmail.com</a>
+        <a>7273969615</a>
+        <a>https://ashishsah.me</a>
+    </div>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script type="text/javascript" src="/ui/main.js">
     </script>
@@ -42,6 +47,7 @@
     }
   });
   $(".div_2").hide();
+  $(".div_3").hide();
   $("#btn").animateCss("rubberBand");
   $("#btn").click(function(){
       $(".div_2").show();
@@ -52,6 +58,7 @@
       $(".div_2").hide();
       $("body").css("background-image","url('http://pasqualeoliva.org/wp-content/uploads/2015/03/contact-me.jpg')");
        $("body").css("background-size","cover");
+       $(".div_3").show();
   });
 
 });
