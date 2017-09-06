@@ -61,7 +61,9 @@ body {
 .con{
     position:absolute;
     background:rgba(22,120,180,1);
-    padding:30px 30px;
+    padding:10px 10px;
+    bottom:0px;
+    width;100%;
 }
 .cont{
     padding:10px 10px;
@@ -71,6 +73,7 @@ body {
     cursor:pointer;
     border-radius:10px;
     transition: background 2s;
+    float:right;
 }
 .cont:hover{
     background:rgba(22,150,270,1);
