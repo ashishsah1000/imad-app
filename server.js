@@ -10,7 +10,7 @@ app.use(morgan('combined'));
 var config = {
     username : 'ashishsah1000',
     database : 'ashishsah1000',
-    db : 'db.imad.hasura-app.io',
+    db : 'http://db.imad.hasura-app.io',
     port :'5432',
     password: process.env.DB_PASSWORD
 }
