@@ -12,7 +12,7 @@ var config = {
     database : 'ashishsah1000',
     db : 'db.imad.hasura-app.io',
     port :'5432',
-    password: 'db-ashishsah1000-96970'
+    password: process.env.DB_PASSWORD
 }
 
 app.get('/', function(req, res) {
